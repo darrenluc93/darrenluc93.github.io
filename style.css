@@ -59,5 +59,31 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 50%;
 	
   }
+  .navbar-brand {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #091ccc;
+}
+
+.box {
+    background-color: #25BBA9;
+    padding: 5%;
+    border: 2px solid #7389AE;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+/* This Code will modify classes set by the team */
+#nav_color1 {
+    color: #FFFFFF;
+}
