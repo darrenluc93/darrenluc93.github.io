@@ -1,72 +1,49 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <a id="nav_color1" class="navbar-brand" href="index.html">Home</a>
-    <li class="nav-item dropdown">
-        <a id="nav_color1" class="nav-link dropdown-toggle navbar-brand" id="navbarDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Projects
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="energy.html">Energy</a>
-            <a class="dropdown-item" href="healthy.html">Healthy Restaurants</a>
-            <a class="dropdown-item" href="etl.html">Healthy Restaurants</a>
-        </div>
-    </li>
-  </nav>
+  <body>
+    <nav class="navbar navbar-deafault navbar-fixed-top">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li class="active "><a class="navcolor" href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle navcolor" data-toggle="dropdown">Projects
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="energy.html">Energy</a></li>
+              <li><a href="Healthy.html">Healthy Restaurants</a></li>
+              <li><a href="etl.html">ETL</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  <h1>Darren Lucca</h1>
+    <h1>Darren Lucca</h1>
 
-  <img class= "center" src="https://media-exp1.licdn.com/dms/image/C4E03AQFvSj07a9fPaQ/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=EAl9o4iPd5lCFlv2Sr7N5Fq7fsQ4DCQZu0bZbfohpQA" alt="Darren Lucca" >
+    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFvSj07a9fPaQ/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=EAl9o4iPd5lCFlv2Sr7N5Fq7fsQ4DCQZu0bZbfohpQA" alt="Darren Lucca" class= "center">
 
-  <p>Welcome to my first website! My name is Darren, I was born and spent most of my life in Pennsylvania. In the past couple of years I move to Austin, Texas to fufill a childhood dream. I am a sports addict and love a good adventure.</p>
-  <p>Most recently I was working for Indeed as a Sales Sourcer. The beginning of my career has been spent in Talent Aquisition starting with agency recruting and moving internal with Indeed. While at Indeed I found the combination of sales and data analytics interesting. I decided to take a leap and enroll into The University of Texas Data Analysis and Visualisation bootcamp. I am looking forward to a long career in coding.
-   </p>
+    <p>Welcome to my Portfolio! My name is Darren, I was born and spent most of my life in Pennsylvania. A few years ago, I moved to Austin, Texas to fufill a childhood dream. I am a sports addict, love the outdoors, and spend some time playing playstation.</p>
+    <p>Most recently I was working for Indeed as a Sales Sourcer. The beginning of my career has been spent in talent aquisition starting with agency recruting and then moving internal with Indeed. While at Indeed I found the combination of sales and data analytics interesting. I decided to take a leap and enroll into The University of Texas Data Analysis and Visualisation bootcamp. I am looking forward to a long career in data analytics.
+    </p>
 
-  <ul>
-    <li><strong>Email:</strong> <a href="mailto:darrentlucca@gmail.com">darrentlucca@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="https://github.com/darrenluc93">https://github.com/darrenluc93</a></li>
-    <li><strong>LinkedIn</strong> <a href="https://www.linkedin.com/in/darrenlucca/">https://www.linkedin.com/in/darrenlucca/</a></li>
-  </ul>
+    <footer class="section footer-classic context-dark bg-image" style="background: #31c5f1;">
+      <div class="row no-gutters social-container">
+        <div class="col"><a class="social-inner" href="mailto:darrentlucca@gmail.com"><span class="icon mdi mdi-facebook"></span><span>Email</span></a></div>
+        <div class="col"><a class="social-inner" href="https://github.com/darrenluc93"><span class="icon mdi mdi-instagram"></span><span>Github</span></a></div>
+        <div class="col"><a class="social-inner" href="https://www.linkedin.com/in/darrenlucca/"><span class="icon mdi mdi-twitter"></span><span>LinkedIn</span></a></div>
+      </div>
+  </footer> 
 
-  <table>
-    <th>Projects</th>
-    <tr>
-      <th>Sports Teams</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>The Phillies</td>
-      <td>The Wolf Of Wall Street</td>
-      <td>Red Dead Redemption 2</td>
-    </tr>
-    <tr>
-      <td>The Flyers</td>
-      <td>The Avengers</td>
-      <td>NHL 2020</td>
-    </tr>
-    <tr>
-      <td>The Eagles</td>
-      <td>The Lincoln Lawyer</td>
-      <td>Call Of Duty</td>
-    </tr>
-  </table>
-
-  <!-- Bonus link to last class page -->
-  <a href="https://github.com/darrenluc93/Python-Challenge">My First Python Project</a>
-
-</body>
+  </body>
 
 </html>

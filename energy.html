@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Project Energy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-deafault navbar-fixed-top">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li class="active "><a class="navcolor" href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle navcolor" data-toggle="dropdown">Projects
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="energy.html">Energy</a></li>
+              <li><a href="healthy.html">Healthy Restaurants</a></li>
+              <li><a href="etl.html">ETL</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <h2>Project Energy</h2>
+    <p>The purpose of this project was to look at energy consumption and generation in the US and try to understand the differences in energy prices accross the US. We first webscraped all of the data from eia.gov using python. We stored this data into a sqlite database. We then created a Flask app that with different routes that rendered the neccessary html documents and output different API's based on the data needed. We created all of the visualizations using Javascript, D3, Plotly, and Leaflet. Through the Flask app, we were able to read in the JSON data from the sqlite database directly. All of the graphs are interactive with hover elements and drop-downs.</p>
+    <p>Our website can be viewed here:<a class= "navcolor" href="https://project-energy.herokuapp.com"> https://project-energy.herokuapp.com</a></p>
+    <p>The github repository can be viewed here:  <a class= "navcolor" href="https://github.com/darrenluc93/ProjectEnergy">https://github.com/darrenluc93/ProjectEnergy</a> </p>
+    <p>Energy has always played an important role in defining the state of Texas. But how have other states compared? For our group project, we wanted to answer this question by looking at three key areas across all states: the production of energy, the consumption of energy, and the prices each state paid for that consumption.</p><br>
+    <p>Below you will find screenshots of examples from the project</p><br>
+    <div class="row">
+        <div class="column">
+          <img src="images/map.png" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/energy-generation.png" alt="Forest" style="width:100%">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column2">
+          <img src="images/energy1.png" alt="Snow" style="width:100%">
+        </div>
+        <div class="column2">
+          <img src="images/energy2.png" alt="Forest" style="width:100%">
+        </div>
+        <div class="column2">
+            <img src="images/energy3.png" alt="Forest" style="width:100%">
+        </div>
+    </div>
+    <footer class="section footer-classic context-dark bg-image" style="background: #31c5f1;">
+        <div class="row no-gutters social-container">
+          <div class="col"><a class="social-inner" href="mailto:darrentlucca@gmail.com"><span class="icon mdi mdi-facebook"></span><span>Email</span></a></div>
+          <div class="col"><a class="social-inner" href="https://github.com/darrenluc93"><span class="icon mdi mdi-instagram"></span><span>Github</span></a></div>
+          <div class="col"><a class="social-inner" href="https://www.linkedin.com/in/darrenlucca/"><span class="icon mdi mdi-twitter"></span><span>LinkedIn</span></a></div>
+        </div>
+    </footer> 
+  </body>
+
+</html>
